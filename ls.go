@@ -49,9 +49,9 @@ func (b *lsCommand) Flags() []cli.Flag {
 		&cli.StringFlag{
 			Name:     "path",
 			Aliases:  []string{"p"},
-			Value:    ".",
+			Value:    "",
 			Usage:    "Path to list",
-			Required: false,
+			Required: true,
 		},
 		&cli.StringFlag{
 			Name:     "block-size",
