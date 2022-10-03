@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/tejzpr/zetools/commands"
+	"github.com/tejzpr/commands-zetools"
 
 	"github.com/olekukonko/tablewriter"
 	cli "github.com/urfave/cli/v2"
